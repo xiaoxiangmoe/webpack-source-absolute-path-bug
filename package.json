@@ -1,0 +1,14 @@
+{
+  "name": "webpack-source-absolute-path-bug",
+  "version": "1.0.0",
+  "author": "ZHAO Jinxiang <xiaoxiangmoe@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --config webpack.config.mjs && prettier --write dist"
+  },
+  "devDependencies": {
+    "prettier": "^2.5.1",
+    "webpack": "^5.67.0",
+    "webpack-cli": "^4.9.2"
+  }
+}
